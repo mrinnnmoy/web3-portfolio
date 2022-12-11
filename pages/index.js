@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import HomePage from '../components/HomePage';
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         <title>Portfolio-web3</title>
         <meta name="viewport" content="initial-scale-1.0, width=device-width" />
       </Head>
-      <h1>Welcome</h1>
+      <HomePage />
     </div>
   )
 }
